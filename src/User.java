@@ -5,7 +5,7 @@ public class User {
 	boolean su;
 	Statistic stat;
 	
-	public User (String email, String password) {
+	public User (String email, String password, Statistic stat) {
 		setEmail(email);
 		setPassword(password);
 	}

@@ -9,8 +9,12 @@ public class Statistic {
 		setCorrect(0);
 		setIncorrect(0);
 		setLevel(0);
-		setCorrectMean(0);
-		setIncorrectMean(0);
+	}
+	
+	public Statistic (int correct, int incorrect, int level) {
+		setCorrect(0);
+		setIncorrect(0);
+		setLevel(0);
 	}
 
 	public int getCorrect() {

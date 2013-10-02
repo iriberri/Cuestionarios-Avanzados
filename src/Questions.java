@@ -18,7 +18,7 @@ public class Questions {
 					"Madrid",
 					"Amsterdam",
 					"Roma",
-					"el kulo tuyo",
+					"el kulo tuio",
 					1
 					);
 			this.questionList[1] = new Question(
@@ -27,7 +27,7 @@ public class Questions {
 					"Una manzana roja",
 					"Un mel—n",
 					"Tu corason",
-					"el kulo tuyo",
+					"el kulo tuio",
 					0
 					);
 			this.questionList[2] = new Question(
@@ -36,7 +36,7 @@ public class Questions {
 					"Pol’tica",
 					"FP",
 					"Teleco",
-					"el kulo tuyo",
+					"el kulo tuio",
 					3
 					);
 		}

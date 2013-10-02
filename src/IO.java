@@ -1,7 +1,8 @@
 import java.io.*;
 
 public class IO {
-	public String propmpt(String prompt) {
+	final char [] question_indices = {'a', 'b', 'c', 'd', 'e'};
+	public String prompt(String prompt) {
 		System.out.print(prompt + ":>");
 		String input = "";
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -30,13 +31,20 @@ public class IO {
 	public void printLogin() {
 		System.out.println("Login:");
 		System.out.println("1.Known User");
-		System.out.println("2.Guest");
+		System.out.println("2.New User");
+		System.out.println("3.Guest");
 	}
 	
 	public void printQuestion(Question q) {
 		System.out.println("Q: " +q.question);
 		for(int i=0; i<5; i++) {
-			System.out.println(i +": " +q.answers[i]);
+			System.out.println(question_indices[i] +": " +q.answers[i]);
 		}
+	}
+	
+	public void printAdminMenu() {
+		System.out.println("Admin Menu:");
+		System.out.println("1.Add question");
+		System.out.println("2.Remove User:");
 	}
 }
