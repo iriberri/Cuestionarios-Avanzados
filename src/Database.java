@@ -3,7 +3,7 @@ import java.util.logging.Logger;
 import java.util.logging.Level;
 
 public class Database {
-	String url  	= "jdbc:mysql://localhost:3306/cuestionarios_avanzados";
+	String url  	= "jdbc:mysql://rfhome.dyndns.org:5678/cuestionarios_avanzados";
 	String user 	= "ca_app";
 	String password = "software2013";
 
